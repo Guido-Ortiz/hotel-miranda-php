@@ -1,20 +1,30 @@
 <?php $_shouldextend[1]=1; ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
- <?php $this->startSection('head'); ?>
- @parentXYZABC
- <?php $this->stopSection(); ?>
-</head>
-
-<body>
-
- <!-- NAVBAR -->
- <?php $this->startSection('navbar'); ?>
- @parentXYZABC
- <?php $this->stopSection(); ?>
+<?php $this->startSection('content'); ?>
+<div class="menu--mobile" id="menu--items">
+ <ul>
+ <li>
+ <a href="about.html">
+ <h3 class="menu--item">About us</h3>
+ </a>
+ </li>
+ <li>
+ <a href="rooms.html">
+ <h3 class="menu--item">Rooms</h3>
+ </a>
+ </li>
+ <li>
+ <a href="offers.html">
+ <h3 class="menu--item">Offers</h3>
+ </a>
+ </li>
+ <li>
+ <a href="contact.html">
+ <h3 class="menu--item">Contact</h3>
+ </a>
+ </li>
+ </ul>
+ </div>
 
  <!-- LANDING -->
  <header>
@@ -394,98 +404,5 @@
  </div>
  </section>
 
- <!-- FOOTER -->
- <footer>
- <div class="footer--header">
- <div>
- H
- </div>
- <img src="./resources/Hotel Miranda.png" alt="Hotel Miranda" />
- </div>
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus optio dolores eveniet inventore, fugiat
- iure tempora dolorum, culpa iste fugit alias quaerat quidem possimus aliquam reprehenderit ex quisquam hic
- aut!</p>
- <div class="footer--icons">
- <img src="./resources/footer/fb.png" alt="FB" />
- <img src="./resources/footer/bg_image.png" alt="BE" />
- <img src="./resources/footer/linkedin.png" alt="Linkedin" />
- <img src="./resources/footer/youtube.png" alt="Youtube" />
- </div>
- <div class="footer--services">
- <h2>Services</h2>
- <div>
- <h5>+ Services</h5>
- <h5>+ Services</h5>
- <h5>+ Services</h5>
- <h5>+ Services</h5>
- <h5>+ Services</h5>
- <h5>+ Services</h5>
- </div>
- </div>
- <div class="footer--contact">
- <h3>Contact us</h3>
- <div class="footer--container">
- <img src="./resources/footer/phone.png" alt="Phone" />
- <div class="footer--info">
- <h4>Phone number</h4>
- <h6>+ 987876 765 76 577</h6>
- </div>
- </div>
- <div class="footer--container">
- <img src="./resources/footer/email.png" alt="Email" />
- <div class="footer--info">
- <h4>Email</h4>
- <h6>contact@hotelmiranda.com</h6>
- </div>
- </div>
- </div>       
- </footer>
- <div class="footer--copyright">
- <h4>Copyright By@Example - 2020</h4>
- <h5>Terms of use | Privacy Enviromental Policy</h5>
- </div>
-
-
- <!-- Swiper JS -->
- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
- <!-- Initialize Swiper -->
- <script>
- var swiper = new Swiper(".mySwip", {
- navigation: {
- nextEl: ".swiper-button-next",
- prevEl: ".swiper-button-prev",
- },
- });
- </script>
-
- <script>
- var swiper = new Swiper(".mySwiper", {
- pagination: {
- el: ".swiper-pagination",
- },
- });
- </script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
- <!-- Initialize Swiper -->
- <script>
- var swiper = new Swiper(".mySwipers", {
- navigation: {
- nextEl: ".swiper-button-next",
- prevEl: ".swiper-button-prev",
- },
- });
- </script>
-
-
-</body>
-
-<!-- navbar -->
-<script src="./js/navbar/navbar.js"></script>
-<script src="./js/foods_menu/foods_menu.js"></script>
-
-</html>
+<?php $this->stopSection(); ?>
 <?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

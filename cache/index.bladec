@@ -1,380 +1,260 @@
 <?php $_shouldextend[1]=1; ?>
 
-<header>
-        <p>The ultimate luxury experience</p>
-        <h1>The perfect base for you</h1>
-        <div>
-            <button class="header--btn">Take a tour</button>
-            <button class="header--btn btn--dark">Learn more</button>
-        </div>
-    </header>
-
-    <!-- ARRIVAL -->
-    <div class="arrival">
-        <div>
-            <h3>Arrival date</h3>
-            <input type="date" />
-        </div>
-        <div>
-
-            <h3>Arrival date</h3>
-            <input type="date" />
-        </div>
-        <a href="rooms.html">
-            <button >Check availability</button>
-        </a>
-    </div>
-
-    <!-- ABOUT US -->
-    <section>
-        <div class="about">
-            <div class="about--container">
-                <h3>About us</h3>
-                <h1>Discover our underground.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam doloribus soluta in quos
-                    corrupti alias ut, illum ducimus enim hic pariatur. Dignissimos voluptatum incidunt eum consequuntur
-                    aliquam rem tempore.</p>
-                <button>Book now</button>
-            </div>
-        </div>
-        <div class="about--items">
-            <div class="about--img">
-                <img src="./resources/about/about.jpg" alt="About Us" class="img" />
-                <div>
-
-                    <img src="./resources/about/Vector.png" alt="Team" class="team" />
-                    <h2>Strong team</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit laboriosam adipisci
-                        aut!
-                        </p>
-                </div>
-            </div>
-            <div class="about--img">
-                <img src="./resources/about/luxury.jpg" alt="Luxury Room" class="img" />
-                <div class="about--dark">
-                    <img src="./resources/about/rooms.png" alt="Team" class="team" />
-                    <h2>Luxury room</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit laboriosam adipisci
-                        aut!
-                        </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ROOMS -->
-    <section class="rooms">
-        <h4>Rooms</h4>
-        <h1>Hand picked rooms</h1>
-    </section>
-
-    <!-- SWIPER -->
-    <div class="swiper mySwip slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide item">
-                <div class="room--icons">
-                    <img src="./resources/rooms/beds.png" alt="Beds" />
-                    <img src="./resources/rooms/wifi.png" alt="Wi-Fi" />
-                    <img src="./resources/rooms/park.png" alt="Parking" />
-                    <img src="./resources/rooms/air.png" alt="AC" />
-                    <img src="./resources/rooms/gym.png" alt="Gym" />
-                    <img src="./resources/rooms/smoke.png" alt="Smoke not allowed" />
-                    <img src="./resources/rooms/drinks.png" alt="Drinks" />
-                </div>
-                <div>
-
-                    <img src="./resources/about/about.jpg" alt="Hotel Room" class="img"/>
-                </div>
-                <h3>Minimal duplex room</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iure ratione, quas id doloremque
-                    quidem
-                    amet
-                    nemo ullam ad ab architecto enim quaerat dignissimos error accusantium ex eaque illo aspernatur.
-                </p>
-                <div class="room--price">$345 <span>/Night</span></div>
-            </div>
-            <div class="swiper-slide item">
-                <div class="room--icons">
-                    <img src="./resources/rooms/beds.png" alt="Beds" />
-                    <img src="./resources/rooms/wifi.png" alt="Wi-Fi" />
-                    <img src="./resources/rooms/park.png" alt="Parking" />
-                    <img src="./resources/rooms/air.png" alt="AC" />
-                    <img src="./resources/rooms/gym.png" alt="Gym" />
-                    <img src="./resources/rooms/smoke.png" alt="Smoke not allowed" />
-                    <img src="./resources/rooms/drinks.png" alt="Drinks" />
-                </div>
-                <img src="./resources/about/about.jpg" alt="Hotel Room" class="img"/>
-                <h3>Minimal duplex room</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iure ratione, quas id doloremque
-                    quidem
-                    amet
-                    nemo ullam ad ab architecto enim quaerat dignissimos error accusantium ex eaque illo aspernatur.
-                </p>
-                <div class="room--price">$345 <span>/Night</span></div>
-            </div>
-
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
-
-
-    <!-- VIDEO -->
-    <section class="video">
-        <h3>Intro video</h3>
-        <h1>Meet with our luxury place.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed fugiat veritatis deleniti officia delectus cumque minima debitis quas nemo? Voluptates inventore incidunt magni dolor culpa officiis porro dignissimos ullam.</p>
-        <button class="btn--mob">Book now</button>
-        <div>
-            <video autoplay controls>
-                <source src="./resources/_video/hotel.mp4" />            
-            </video>
-        </div>
-        <button class="video--btn">Book now</button>
-    </section>
-
-    <!-- FACILITIES -->
-    <section class="facilities">
-        <h3>Facilities</h3>
-        <h1>Core features</h1>
-        <div class="facilities--container">
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-            <div class="facilities--item">
-                <div>
-                    <img src="./resources/_core/icon _1.png" alt="Icon" />
-                </div>
-                <h3>Have high rating</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                    voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                    reiciendis accusantium impedit.</p>
-                <h1>01</h1>
-            </div>
-        </div>
-        <div class="swiper mySwiper facilities--swiper">
-            <div class="swiper-wrapper">
-                
-                <div class="facilities--item swiper-slide">
-                    <div>
-                        <img src="./resources/_core/icon _1.png" alt="Icon" />
-                    </div>
-                    <h3>Have high ratings</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                        voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                        reiciendis accusantium impedit.</p>
-                    <h1>01</h1>
-                </div>
-                <div class="facilities--item swiper-slide">
-                    <div>
-                        <img src="./resources/_core/icon _1.png" alt="Icon" />
-                    </div>
-                    <h3>Have high rating</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem dolores mollitia aliquid error
-                        voluptate ut porro itaque obcaecati dolore, non commodi perspiciatis minus maxime blanditiis ab
-                        reiciendis accusantium impedit.</p>
-                    <h1>11</h1>
-                </div>
-            </div>
-            <div class="swiper-paginations"></div>
-        </div>
-    </section>
-
-    <!-- FOODS -->
-    <section class="foods">
-        <img src="./resources/foods/icon.png" alt="Food Icon" class="food--icon" />
-        <h3>Menu</h3>
-        <h1>Our foods menu</h1>
-
-        <div class="wrapper">
-            <div class="container">
-                <div class="img--container">
-                    <img src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title">Eggs & bacon</h4>
-                    <p class="food--subtitle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="img--container">
-                    <img src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title">Eggs & bacon</h4>
-                    <p class="food--subtitle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="img--container">
-                    <img src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title">Eggs & bacon</h4>
-                    <p class="food--subtitle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="img--container">
-                    <img src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title">Eggs & bacon</h4>
-                    <p class="food--subtitle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-        </div>
+<?php $this->startSection('content'); ?>
+<div class="home-banner px-20">
+ <div class="wrapper-desktop">
+ <h2 class="h2 home-banner__subtitle">The ultimate luxury experience</h2>
+ <h1 class="h1 home-banner__title">The perfect base for you</h1>
+ <a href="rooms.php" class="button home-banner__button">Take a tour</a>
+ <a href="about.php" class="button button--outline home-banner__button home-banner__button--outline">Learn
+ more</a>
+ </div>
+</div>
+<div class="check-date px-20">
+ <div class="wrapper-desktop">
+ <form class="check-date__form">
+ <div class="check-date__input-group">
+ <label for="arrivalDate" class="check-date__label">Arrival Date</label>
+ <input id="arrivalDate" type="date" class="check-date__input" value="2020-03-24">
+ </div>
+ <div class="check-date__input-group">
+ <label for="ledepartureDate" class="check-date__label">LeDeparture Date</label>
+ <input id="ledepartureDate" type="date" class="check-date__input" value="2020-03-24">
+ </div>
+ </form>
+ <button class="button check-date__button">Check Availability</button>
+ </div>
+</div>
+<section class="section">
+ <div class="home-about wrapper-desktop">
+ <div class="home-about__top px-20">
+ <h2 class="h2 section__h2">About us</h2>
+ <h3 class="h3 section__h3">Discover our underground.</h3>
+ <p class="section__p">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusamus voluptatibus est provident quaerat
+ quos placeat laborum possimus. Maxime necessitatibus placeat culpa iure quibusdam natus perspiciatis tempore
+ voluptate distinctio eius?
+ </p>
+ <button class="button home-about__button">Book now</button>
+ </div>
+ <div class="home-about__bottom">
+ <div class="wrapper-x home-about__wrapper">
+ <div class="home-about__first-image card card--image"></div>
+ <div class="home-about__card--team card">
+ <div class="home-about__card-icon--people card__icon"></div>
+ <h4 class="h4 home-about__h4 card__h4">Strong Team</h4>
+ <p class="home-about__p card__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor.</p>
+ <div class="home-about__bg-image card__bg-image"></div>
+ </div>
+ <div class="card card--image"></div>
+ <div class="home-about__card card card--dark">
+ <div class="home-about__card-icon--calendar card__icon"></div>
+ <h4 class="h4 home-about__h4 card__h4">Luxury Room</h4>
+ <p class="home-about__p card__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor.</p>
+ <div class="home-about__bg-image card__bg-image"></div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+<section class="section section--justified">
+ <div class="home-rooms">
+ <h2 class="h2 section__h2 section__h2--justified">Rooms</h2>
+ <h3 class="h3 section__h3">Hand picked rooms</h3>
+ <div class="icon-bar">
+ <div class="icon-bar__icon icon-bar__icon--bed"></div>
+ <div class="icon-bar__icon icon-bar__icon--wifi"></div>
+ <div class="icon-bar__icon icon-bar__icon--car"></div>
+ <div class="icon-bar__icon icon-bar__icon--ac"></div>
+ <div class="icon-bar__icon icon-bar__icon--gym"></div>
+ <div class="icon-bar__icon icon-bar__icon--nosmoke"></div>
+ <div class="icon-bar__icon icon-bar__icon--bar"></div>
+ </div>
+ <div class="swiper rooms-swiper">
+ <div class="swiper-wrapper">
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ <div class="swiper-slide swiper-slide__room"></div>
+ </div>
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+ </div>
+ <div class="wrapper-x home-rooms__wrapper">
+ <h4 class="h4 home-rooms__h4">Minimal duplex room</h4>
+ <p class="p section__p home-rooms__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore.</p>
+ <div class="price">
+ <span class="price__amount">$345</span><span class="price__night">/Night</span>
+ </div>
+ </div>
+ </div>
+</section>
+<section class="section section--dark px-20">
+ <div class="intro-video">
+ <h2 class="h2 section__h2 section__h2--dark intro-video__h2">Intro video</h2>
+ <h3 class="h3 section__h3">Meet with our luxury place.</h3>
+ <p class="p section__p section__p--dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+ eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
+ <div class="video video--square"></div>
+ <button class="button">Book now</button>
+ </div>
+</section>
+<section class="section section--justified features-container">
+ <h2 class="h2 section__h2 section__h2--justified">Facilities</h2>
+ <h3 class="h3 section__h3">Core Features</h3>
+ <div class="swiper feature-swiper">
+ <div class="swiper-wrapper">
+ <div class="feature feature--active swiper-slide" aria-label="1 / 6">
+ <div class="feature__icon feature__icon--one"></div>
+ <span class="feature__number">01</span>
+ <h4 class="h4 feature__h4">Have high rating</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ <div class="feature swiper-slide" aria-label="2 / 6">
+ <div class="feature__icon feature__icon--two"></div>
+ <div class="feature__number">02</div>
+ <h4 class="h4 feature__h4">Quiet hours</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ <div class="feature swiper-slide" aria-label="3 / 6">
+ <div class="feature__icon feature__icon--three"></div>
+ <div class="feature__number">03</div>
+ <h4 class="h4 feature__h4">Best Locations</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ <div class="feature swiper-slide" aria-label="4 / 6">
+ <div class="feature__icon feature__icon--four"></div>
+ <div class="feature__number">04</div>
+ <h4 class="h4 feature__h4">Free cancellation</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ <div class="feature swiper-slide" aria-label="5 / 6">
+ <div class="feature__icon feature__icon--five"></div>
+ <div class="feature__number">05</div>
+ <h4 class="h4 feature__h4">Payment options</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ <div class="feature swiper-slide" aria-label="6 / 6">
+ <div class="feature__icon feature__icon--six"></div>
+ <div class="feature__number">06</div>
+ <h4 class="h4 feature__h4">Special Offers</h4>
+ <p class="p feature__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna..</p>
+ </div>
+ </div>
+ <div class="feature-swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+ </div>
+ </div>
+</section>
+<section class="section">
+ <div class="food-donut"></div>
+ <div class="px-20">
+ <h2 class="h2 section__h2">Menu</h2>
+ <h3 class="h3 section__h3">Our Foods Menu</h3>
+ <div class="food-swiper">
+ <div class="swiper-wrapper">
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Eggs & bacon</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Tea or Coffee</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Chia oatmeal</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Fruit parfait</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Marmalade selection</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ <div class="swiper-slide food">
+ <div class="food__img"></div>
+ <div class="food__text">
+ <h4 class="h4 food__h4">Cheese plate</h4>
+ <p class="p food__p">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.
+ </p>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-button-next food-swiper__button food-swiper__button--next"></div>
+ <div class="swiper-button-prev food-swiper__button food-swiper__button--prev"></div>
+ </div>
+ </div>
+ <div class="swiper food-images-swiper">
+ <div class="swiper-wrapper">
+ <div class="swiper-slide swiper-slide__food"></div>
+ <div class="swiper-slide swiper-slide__food"></div>
+ <div class="swiper-slide swiper-slide__food"></div>
+ </div>
+ <div class="food-images-swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+ </div>
+ </div>
+</section>
+<section class="section section--dark section--justified">
+ <div class="hits-container">
 
 
-        <div id="p1">
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Eggs & bacon</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Tea or coffee</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/eggs.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Chia oatmeal</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-        </div>
-        <div id="p2">
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/tea.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Eggs & bacon</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/tea.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Tea or coffee</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-            <div class="food--container">
-                <div class="img--container">
-                    <img class="img" src="./resources/foods/tea.jfif" />
-                </div>
-                <div class="food--text">
-                    <h4 class="food--title div2">Chia oatmeal</h4>
-                    <p class="food--subtitle div3">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-                        eiusmod tempor.</p>
-                </div>
-            </div>
-        </div>
-        <div class="food--arrows">
-            <div class="arrow arrow--back" id="back">&#60;</div>
-            <div class="arrow arrow--next" id="forw">&#62;</div>
-        </div>
-
-
-
-    </section>
-
-    <!-- CARROUSEL -->
-
-
-    <!-- NUMBERS -->
-    <section class="numbers">
-        <div>
-            <img src="./resources/numbers/icon 5.png" alt="Rocket"/>
-            <h2>84k</h2>
-            <h5 class="numbers--description">Projects completed</h5>
-        </div>
-        <div>
-            <img src="./resources/numbers/icon 6.png" alt="Team"/>
-            <h2>10M</h2>
-            <h5 class="numbers--description">Active backers around world</h5>
-        </div>
-        <div>
-            <img src="./resources/numbers/icon 7.png" alt="Finance"/>
-            <h2>2k</h2>
-            <h5 class="numbers--description">Categories served</h5>
-        </div>
-        <div>
-            <img src="./resources/numbers/icon 8.png" alt="Book"/>
-            <h2>10M</h2>
-            <h5>Idea raised funds</h5>
-        </div>
-    </section>
-
+ <div class="hit">
+ <div class="hit__icon hit__icon--rocket"></div>
+ <span class="hit__big">84k</span><span class="hit__plus">+</span>
+ <span class="hit__subtitle">Projects are Completed</span>
+ </div>
+ <div class="hit">
+ <div class="hit__icon hit__icon--suits"></div>
+ <span class="hit__big">10M</span><span class="hit__plus">+</span>
+ <span class="hit__subtitle">Active Backers Around World</span>
+ </div>
+ <div class="hit">
+ <div class="hit__icon hit__icon--stonks"></div>
+ <span class="hit__big">02k</span><span class="hit__plus">+</span>
+ <span class="hit__subtitle">Categories Served</span>
+ </div>
+ <div class="hit">
+ <div class="hit__icon hit__icon--book"></div>
+ <span class="hit__big">100M</span><span class="hit__plus">+</span>
+ <span class="hit__subtitle">Idea Raised Funds</span>
+ </div>
+ </div>
+</section>
+<?php $this->stopSection(); ?>
 <?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>
