@@ -1,0 +1,200 @@
+.core {
+    background: $background-arrival;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .mySwiper {
+        border: none;
+
+        // padding: 10px;
+        :root {
+            --swiper-theme-color: red !important;
+            // --swiper-navigation-size: 84px;
+        }
+    }
+
+    .core--container {
+        display: none;
+    }
+
+    .core--swiper {
+        @media only screen and (min-width: 1000px) {
+            display: none;
+        }
+
+    }
+
+    h3 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #C2C2C2;
+        margin-bottom: 26px;
+        margin-top: 28px;
+    }
+
+    h1 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        color: #FFFFFF;
+        margin-bottom: 26px;
+        // text-transform: capitalize;
+        // margin: 0 auto;
+    }
+
+    .core--item {
+        // border: 1px solid salmon;
+        background: #292929;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        padding: 30px;
+        position: relative;
+        max-width: 370px;
+        margin: 0 auto;
+        margin-bottom: 63px;
+
+        h3 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: -0.9px;
+            color: #FFFFFF;
+            margin-top: 36px;
+        }
+
+        p {
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+
+        h1 {
+            position: absolute;
+            width: 143px;
+            height: 130px;
+            left: 110px;
+            top: 0px;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 120px;
+            line-height: 130px;
+            color: #222222;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .core {
+        // border: 1px solid blue;
+        background: $background-arrival;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 118px 0;
+
+
+        h3 {
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 15px;
+            letter-spacing: 2.8px;
+            text-transform: uppercase;
+            color: #C2C2C2;
+            margin-bottom: 26px;
+        }
+
+        h1 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 80px;
+            letter-spacing: -2.4px;
+            color: #FFFFFF;
+        }
+
+        .core--container {
+            // border: 1px solid yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 80%;
+            // margin: 0 150px;
+
+            .core--item {
+                // border: 1px solid salmon;
+                background: #292929;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                margin-right: 25px;
+                margin-bottom: 25px;
+                padding: 60px;
+                position: relative;
+                max-width: 370px;
+
+                h3 {
+                    font-family: 'Old Standard TT';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 30px;
+                    letter-spacing: -0.9px;
+                    color: #FFFFFF;
+                    margin-top: 36px;
+                }
+
+                p {
+                    font-family: 'Archivo';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+
+                h1 {
+                    position: absolute;
+                    width: 143px;
+                    height: 130px;
+                    left: 232px;
+                    top: 0px;
+                    font-family: 'Archivo';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 120px;
+                    line-height: 130px;
+                    color: #222222;
+                }
+            }
+        }
+    }
+}

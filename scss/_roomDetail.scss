@@ -1,0 +1,105 @@
+.room--wrapper {
+    // border: 1px solid red;
+    margin-top: 48px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .room--detail {
+        // border: 1px solid fuchsia;
+        padding-bottom: 28px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media only screen and (min-width: 1000px){
+            // border: 1px solid blue;
+            max-width: 370px;
+            margin: 10px;
+        }
+
+        .room-container {
+            position: relative;
+
+            .room--detail--icons {
+                // border: 1px solid blue;
+                height: 40px;
+                width: 250px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                position: absolute;
+                bottom: -5px;
+                right: 12px;
+                background: #ffffff;
+
+                img {
+                    width: 12px;
+                    height: 8.18px;
+                }
+            }
+
+
+        }
+
+        h3 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: right;
+            letter-spacing: -0.72px;
+            color: #222222;
+            margin-top: 28px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: $secondary;
+            margin-bottom: 10px;
+        }
+
+        .room--price {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                text-align: right;
+                color: $primary;
+                margin-right: 19px;
+            }
+
+            span {
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                text-align: right;
+
+                color: #BDBDBD;
+
+            }
+        }
+    }
+
+}

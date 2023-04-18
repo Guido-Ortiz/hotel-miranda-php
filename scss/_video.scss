@@ -1,0 +1,106 @@
+.video {
+    // border: 1px solid red;
+    margin-top: 49px;
+    background: $background-arrival;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 64px;
+    padding-right: 20px;
+
+    @media only screen and (min-width: 1000px) {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-height: 700px;
+        padding-left: 150px;
+    }
+
+
+    h3 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #BDAC8D;
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+
+        @media only screen and (min-width: 1000px) {
+            width: 50%;
+        }
+    }
+
+    p {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #C2C2C2;
+        margin-bottom: 32px;
+
+        @media only screen and (min-width: 1000px) {
+            width: 50%;
+        }
+    }
+
+    button {
+        width: 216px;
+        height: 60px;
+        background: #BDAC8D;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        margin-bottom: 48px;
+    }
+
+    video {
+        width: 100%;
+        margin-bottom: 20px;
+
+        @media only screen and (min-width: 1000px) {
+            width: 50%;
+            // height: 10%;
+        }
+    }
+
+    .btn--mob {
+        display: none;
+
+        @media only screen and (min-width: 1000px) {
+            display: block;
+        }
+    }
+
+    .video--btn {
+        @media only screen and (min-width: 1000px) {
+            display: none;;
+        }
+    }
+}

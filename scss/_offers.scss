@@ -1,0 +1,160 @@
+.offers {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: 1000px) {
+        margin-top: 60px;
+    }
+
+    .offers--item {
+        // border: 1px solid rebeccapurple;
+        padding: 20px;
+
+        .offers--img--container {
+            // border: 1px solid saddlebrown;
+            position: relative;
+
+            img {
+                // border: 1px solid blue;
+                width: 100%;
+            }
+
+            h4 {
+                position: absolute;
+                // width: 106.54px;
+                // height: 33.48px;
+                // left: 180px; //213
+                right: 5px;
+                // top: 81px;
+                bottom: 40px;
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 23px;
+                line-height: 25px;
+                text-align: right;
+                text-decoration-line: line-through;
+                color: $primary;
+
+                span {
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-decoration-line: line-through;
+                }
+            }
+
+            h3 {
+                position: absolute;
+                // width: 142.05px;
+                // height: 44.64px;
+                // left: 213px;
+                right: 5px;
+                // top: 117.36px;
+                bottom: 10px;
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 27px;
+                line-height: 30px;
+                text-align: right;
+                color: #DE5777;
+
+                span {
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-decoration-line: none;
+                }
+            }
+        }
+
+        .offers--description {
+            // border: 1px solid fuchsia;
+            padding: 20px;
+
+            h5 {
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 15px;
+                letter-spacing: 2.8px;
+                text-transform: uppercase;
+                color: $secondary;
+                margin-top: 16px;
+                margin-bottom: 12px;
+            }
+
+            h2 {
+                font-family: 'Old Standard TT';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: -1.44px;
+                color: #222222;
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: $secondary;
+            }
+        }
+
+        .offers--icons {
+            // border: 1px solid gold;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+
+            div {
+                // border: 1px solid red;
+                display: flex;
+                align-items: center;
+                margin: 5px 7px;
+                
+                img {
+                    margin-right: 2px;
+                }
+
+                h4 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: $secondary;
+                    margin: 0 2px; 
+                }
+            }
+        }
+
+        button {
+            width: 216px;
+            height: 60px;
+            left: 0px;
+            top: 0px;
+            border: none;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 15px;
+            letter-spacing: 2.8px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #BDAC8D;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    }
+}

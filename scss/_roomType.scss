@@ -1,0 +1,54 @@
+.room--type {
+    // border: 1px solid red;
+    padding: 20px;
+    margin-top: 28px;
+    margin-bottom: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h4 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: $secondary;
+        margin-bottom: 12px;
+
+    }
+
+    h1 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.44px;
+        color: #222222;
+        margin-bottom: 16px;
+    }
+
+    h3 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+        color: $primary;
+        margin-bottom: 16px;
+
+        span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+        display: none;
+    }
+}

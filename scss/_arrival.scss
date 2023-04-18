@@ -1,0 +1,86 @@
+.arrival {
+    background: $background-arrival;
+    height: auto;
+    padding: 36px 0 36px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    @media only screen and (min-width: 1000px) {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+
+        // border: 1px solid yellow;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+
+        @media only screen and (min-width: 1000px) {
+            width: 30%;
+        }
+
+
+        h3 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        input {
+            margin-bottom: 30px;
+            padding: 14px 0;
+            background: none;
+            border: none;
+            border-bottom: 2px solid $primary;
+            color: #686868;
+            width: 100%;
+
+            @media only screen and (min-width: 1000px) {
+                // border: 1px solid green;
+                width: 330px;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator,
+    input[type="time"]::-webkit-calendar-picker-indicator {
+        cursor: pointer;
+        color: $primary;
+        filter: invert(0.9);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        width: 250px;
+        height: 60px;
+        margin-top: 12px;
+        background: $primary;
+        border: none;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,87 @@
+.contact {
+    // border: 1px solid red;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media only screen and (min-width: 1000px){
+        // border: 1px solid yellow;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .contact--container {
+        // border: 1px solid fuchsia;
+        margin-top: 10px;
+        width: 100vw;
+        padding: 53px 32px;
+        position: relative;
+        width: 80%;
+
+        @media only screen and (min-width: 1000px){
+            // border: 1px solid fuchsia;
+            width: 300px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            position: absolute;
+            width: 224px;
+            height: 234px;
+            // left: 112.5px;
+            bottom: -30px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 200px;
+            line-height: 234px;
+            letter-spacing: -6px;
+            color: #F8F8F8;
+            z-index: -1;
+
+            @media only screen and (min-width: 1000px){
+                left: 82.5px;
+            }
+        }
+
+        .contact--info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-left: 27px;
+
+                h3 {
+                    font-family: 'Old Standard TT';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #222222;
+                    margin-bottom: 10px;
+                }
+
+                h5 {
+                    font-family: 'Old Standard TT';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #222222; 
+                }
+            }
+        }
+
+    }
+
+    
+}

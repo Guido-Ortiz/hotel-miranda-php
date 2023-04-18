@@ -1,0 +1,140 @@
+.rooms {
+    // border: 1px solid red;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: $secondary;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: -1.2px;
+        color: $background-arrival;
+        margin-bottom: 24px;
+        text-transform: capitalize;
+    }
+}
+
+
+
+// .swapper-wrapper {
+//     width: 100vw;
+// }
+
+.mySwip {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.slider {
+    // border: 1px solid slateblue;
+
+    @media only screen and (min-width: 1000px) {
+        // border: 1px solid navy;
+    }
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .room--icons {
+        // border: 1px solid blue;
+        z-index: 1;
+        background: #ffffff;
+        height: 40px;
+        width: 256px;
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+        justify-content: space-evenly;
+        position: absolute;
+        top: -5px;
+        // left: 40px;
+        left: 7%;
+
+        img {
+            // border: 1px solid palegoldenrod;
+            width: 12px;
+            height: 8.18px;
+            // margin: 5px 0;
+        }
+    }
+
+    div {
+        width: 300px;
+        margin: 0 auto;
+
+        .img {
+            // border: 1px solid greenyellow;
+            padding: 0 15px;
+            // width: 290px;
+            width: 100%;
+        }
+    }
+
+
+    h3 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+        color: #222222;
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: $secondary;
+        margin-bottom: 12px;
+        // padding: 20px;
+    }
+}
+
+.room--price {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center !important;
+    color: $primary;
+    display: flex;
+    flex-direction: row;
+
+    span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

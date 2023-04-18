@@ -1,0 +1,237 @@
+.offers--swiper {
+    // border: 1px solid red;
+    background: $background-arrival;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #BDAC8D;
+        margin-top: 48px;
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.8px;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+    }
+
+    .offerSwiper {
+        margin-bottom: 48px;
+
+        @media only screen and (min-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .offer--detail {
+        // border: 1px solid fuchsia;
+        padding-bottom: 28px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        padding: 20px;
+
+        @media only screen and (min-width: 1000px) {
+            // border: 1px solid blue;
+            max-width: 370px;
+            margin: 10px;
+        }
+
+        .offer-container {
+            position: relative;
+
+            .offer--detail--icons {
+                // border: 1px solid blue;
+                height: 40px;
+                width: 250px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                position: absolute;
+                bottom: -5px;
+                right: 12px; //12
+                background: #ffffff;
+
+                img {
+                    width: 12px;
+                    height: 8.18px;
+                }
+            }
+
+
+        }
+
+        h3 {
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: -0.72px;
+            color: #222222;
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: $secondary;
+            margin-bottom: 10px;
+        }
+
+        .room--price {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                text-align: right;
+                color: $primary;
+                margin-right: 19px;
+            }
+
+            span {
+                font-family: 'Archivo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 17px;
+                text-align: right;
+
+                color: #BDBDBD;
+
+            }
+        }
+    }
+
+}
+
+.offer {
+    display: none;
+
+    @media only screen and (min-width: 1000px) {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        // flex-wrap: wrap;
+        width: auto;
+        margin-bottom: 120px;
+
+        .offer--detail {
+            // border: 1px solid blue;
+            max-width: 370px;
+            margin: 10px;
+
+            .offer-container {
+                position: relative;
+
+                .offer--detail--icons {
+                    // border: 1px solid blue;
+                    height: 40px;
+                    width: 250px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    position: absolute;
+                    bottom: -5px;
+                    right: 12px; //12
+                    background: #ffffff;
+
+                    img {
+                        width: 12px;
+                        height: 8.18px;
+                    }
+                }
+
+
+            }
+
+            h3 {
+                font-family: 'Old Standard TT';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: -0.72px;
+                color: #222222;
+                margin-top: 48px;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                color: $secondary;
+                margin-bottom: 10px;
+            }
+
+            .room--price {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                h4 {
+                    font-family: 'Archivo';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 17px;
+                    text-align: right;
+                    color: $primary;
+                    margin-right: 19px;
+                }
+
+                span {
+                    font-family: 'Archivo';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 17px;
+                    text-align: right;
+
+                    color: #BDBDBD;
+
+                }
+            }
+        }
+    }
+}
