@@ -31,23 +31,23 @@
  <span class="material-symbols-outlined menu" id="menu">menu</span>
  <span class="material-symbols-outlined close menu" id="close">close</span>
  <div class="navbar--container">
- <a class="navbar--header" href="index.html">
+ <a class="navbar--header" href="index.php">
  <div class="logo">
  <img src="./resources/H.png" alt="Logo Hotel Miranda" />
  </div>
  <img src="./resources/Hotel Miranda.png" alt="Hotel Miranda" class="navbar--title" />
  </a>
 
- <a href="about.html">
+ <a href="about.php">
  <h3 class="menu--desktop">About us</h3>
  </a>
- <a href="rooms.html">
+ <a href="rooms.php">
  <h3 class="menu--desktop">Rooms</h3>
  </a>
- <a href="offers.html">
+ <a href="offers.php">
  <h3 class="menu--desktop">Offers</h3>
  </a>
- <a href="contact.html">
+ <a href="contact.php">
  <h3 class="menu--desktop">Contact</h3>
  </a>
 
@@ -61,22 +61,22 @@
  <div class="menu--mobile" id="menu--items">
  <ul>
  <li>
- <a href="about.html">
+ <a href="about.php">
  <h3 class="menu--item">About us</h3>
  </a>
  </li>
  <li>
- <a href="rooms.html">
+ <a href="rooms.php">
  <h3 class="menu--item">Rooms</h3>
  </a>
  </li>
  <li>
- <a href="offers.html">
+ <a href="offers.php">
  <h3 class="menu--item">Offers</h3>
  </a>
  </li>
  <li>
- <a href="contact.html">
+ <a href="contact.php">
  <h3 class="menu--item">Contact</h3>
  </a>
  </li>
