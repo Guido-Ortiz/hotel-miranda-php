@@ -1,0 +1,51 @@
+@extends('layout')
+
+@section('content')
+    <section class="contact">
+        <div class="contact--container">
+            <h1>01</h1>
+            <div class="contact--info">
+                <img src="./resources/contact/address.png" alt="Hotel address" />
+                <div>
+                    <h3>Hotel address</h3>
+                    <h5>19/A, Cirikon City Hall</h5>
+                    <h5>New York, NYC</h5>
+                </div>
+            </div>
+        </div>
+        <div class="contact--container">
+            <h1>02</h1>
+            <div class="contact--info">
+                <img src="./resources/contact/address.png" alt="Hotel address" />
+                <div>
+                    <h3>Phone Number</h3>
+                    <h5>+987 654 321</h5>
+                    <h5>+123 456 789</h5>
+                </div>
+            </div>
+        </div>
+        <div class="contact--container">
+            <h1>03</h1>
+            <div class="contact--info">
+                <img src="./resources/contact/address.png" alt="Hotel address" />
+                <div>
+                    <h3>Email</h3>
+                    <h5>info@webmail.com</h5>
+                    <h5>contact@hotelmiranda.com</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <form class="form">
+        <div>
+            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Add Phone Number" />
+            <input type="text" placeholder="Enter email address" />
+            <input type="text" placeholder="Enter email address" />
+            <textarea type="text" placeholder="Enter message"></textarea>
+            <button>Send</button>
+        </div>
+    </form>
+@endsection
