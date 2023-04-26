@@ -1,20 +1,14 @@
 <?php
-include './blade-config.php';
 include './db.php';
+include './blade-config.php';
+// include './php.ini.ini';
 
 $sql = "SELECT * FROM ROOMS";
 $result = $conn->query($sql);
 
-if($result->num_rows > 0){
-    while($row = $result->fetch_object()){
-        $rooms[] = $row;
-    }
-} else {
-    echo "No results";
-}
+echo $blade->run('rooms', ["rooms" => $result->fetch_all(MYSQLI_ASSOC)]);
 
 $conn->close();
-echo $blade->run('rooms', array('rooms' => $rooms));
 
 
 
