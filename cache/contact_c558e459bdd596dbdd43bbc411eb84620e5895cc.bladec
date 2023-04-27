@@ -40,11 +40,11 @@
  <!-- FORM -->
  <form class="form">
  <div>
- <input type="text" placeholder="Full Name" />
- <input type="text" placeholder="Add Phone Number" />
- <input type="text" placeholder="Enter email address" />
- <input type="text" placeholder="Enter email address" />
- <textarea type="text" placeholder="Enter message"></textarea>
+ <input type="text" placeholder="Full Name" name='name' />
+ <input type="text" placeholder="Add Phone Number"  name='phone' />
+ <input type="text" placeholder="Enter email address"  name='email' />
+ <input type="text" placeholder="Enter subject"  name='' />
+ <textarea type="text" placeholder="Enter message" name='comment'></textarea>
  <button>Send</button>
  </div>
  </form>
