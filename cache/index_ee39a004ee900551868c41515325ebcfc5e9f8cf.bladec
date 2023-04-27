@@ -1,30 +1,6 @@
 <?php $_shouldextend[1]=1; ?>
 
 <?php $this->startSection('content'); ?>
-<div class="menu--mobile" id="menu--items">
- <ul>
- <li>
- <a href="about.html">
- <h3 class="menu--item">About us</h3>
- </a>
- </li>
- <li>
- <a href="rooms.html">
- <h3 class="menu--item">Rooms</h3>
- </a>
- </li>
- <li>
- <a href="offers.html">
- <h3 class="menu--item">Offers</h3>
- </a>
- </li>
- <li>
- <a href="contact.html">
- <h3 class="menu--item">Contact</h3>
- </a>
- </li>
- </ul>
- </div>
 
  <!-- LANDING -->
  <header>
@@ -37,20 +13,20 @@
  </header>
 
  <!-- ARRIVAL -->
- <div class="arrival">
+ <form class="arrival" action="/available_rooms.php" method="POST">
  <div>
- <h3>Arrival date</h3>
- <input type="date" />
+ <h3>Check-In date</h3>
+ <input type="date" name='checkin' />
  </div>
  <div>
 
- <h3>Arrival date</h3>
- <input type="date" />
+ <h3>Check-Out date</h3>
+ <input type="date" name='checkout' />
  </div>
  <a href="rooms.html">
  <button >Check availability</button>
  </a>
- </div>
+ </form>
 
  <!-- ABOUT US -->
  <section>
